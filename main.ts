@@ -44,12 +44,12 @@ const DEFAULT_SETTINGS: QuickLatexSettings = {
 	addCasesBlock_toggle: true,
 	autoFraction_toggle: true,
 	autoLargeBracket_toggle: true,
-	autoSumLimit_toggle: true,
+	autoSumLimit_toggle: false,
 	autoEncloseSup_toggle: true,
 	autoEncloseSub_toggle: true,
 	encloseSelection_toggle: true,
 	customShorthand_toggle: true,
-	customShorthand_parameter: "bi:\\binom{#cursor}{#tab};\nsq:\\sqrt{};\nbb:\\mathbb{};\nbf:\\mathbf{};\nte:\\text{};\ninf:\\infty;\n"+
+	customShorthand_parameter: "bi:\\binom{#cursor}{#tab};\nsq:\\sqrt{};\nbb:\\mathbb{};\nbf:\\mathbf{};\nte:\\text{ };\ninf:\\infty;\n"+
 							"cd:\\cdot;\nqu:\\quad;\nti:\\times;\n"+
 							"al:\\alpha;\nbe:\\beta;\nga:\\gamma;\nGa:\\Gamma;\n"+
 							"de:\\delta;\nDe:\\Delta;\nep:\\epsilon;\nze:\\zeta;\n"+
@@ -58,7 +58,8 @@ const DEFAULT_SETTINGS: QuickLatexSettings = {
 							"nu:\\nu;\nxi:\\xi;\nXi:\\Xi;\npi:\\pi;\nPi:\\Pi;\n"+
 							"rh:\\rho;\nsi:\\sigma;\nSi:\\Sigma;\nta:\\tau;\n"+
 							"up:\\upsilon;\nUp:\\Upsilon;\nph:\\phi;\nPh:\\Phi;\nch:\\chi;\n"+
-							"ps:\\psi;\nPs:\\Psi;\nom:\\omega;\nOm:\\Omega"
+							"ps:\\psi;\nPs:\\Psi;\nom:\\omega;\nOm:\\Omega"+
+        					"int:\\int^{}_{}f(x)dx;sum:\\sum^{n-1}_{i=0};lim:\\lim_{x\\rightarrow \\infty};*:\\times;"
 }
 
 export default class QuickLatexPlugin extends Plugin {
