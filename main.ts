@@ -59,7 +59,7 @@ const DEFAULT_SETTINGS: QuickLatexSettings = {
 							"rh:\\rho;\nsi:\\sigma;\nSi:\\Sigma;\nta:\\tau;\n"+
 							"up:\\upsilon;\nUp:\\Upsilon;\nph:\\phi;\nPh:\\Phi;\nch:\\chi;\n"+
 							"ps:\\psi;\nPs:\\Psi;\nom:\\omega;\nOm:\\Omega"+
-        					"int:\\int^{}_{}f(x)dx;sum:\\sum^{n-1}_{i=0};lim:\\lim_{x\\rightarrow \\infty};*:\\times;"
+        					"int:\\int^{}_{}f(x)dx;sum:\\sum^{n-1}_{i=0};lim:\\lim_{x\\rightarrow\\infty};*:\\times;"
 }
 
 export default class QuickLatexPlugin extends Plugin {

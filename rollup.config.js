@@ -14,7 +14,7 @@ if you want to view the source visit the plugins github repository
 export default {
   input: 'main.ts',
   output: {
-    dir: 'D:/1 Projects/AI/.obsidian/plugins/quick_latex_obsidian',
+    dir: 'C:\\Users\\waffl_g\\Documents\\Obsidian Vault\\.obsidian\\plugins\\quick_latex_calculus',
     // dir: 'D:/1 Projects/quick_latex_obsidian',
     sourcemap: 'inline',
     sourcemapExcludeSources: isProd,
