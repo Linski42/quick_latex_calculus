@@ -60,7 +60,7 @@ const DEFAULT_SETTINGS: QuickLatexSettings = {
 							"up:\\upsilon;\nUp:\\Upsilon;\nph:\\phi;\nPh:\\Phi;\nch:\\chi;\n"+
 							"ps:\\psi;\nPs:\\Psi;\nom:\\omega;\nOm:\\Omega;"+
         					"\nint:\\int^{}_{}f(x)dx;\nsum:\\sum^{n-1}_{i=0};\nlim:\\lim_{x\\rightarrow\\infty};\n*:\\times;"
-}
+}//asdf
 export default class QuickLatexPlugin extends Plugin {
 	settings: QuickLatexSettings;
 	shorthand_array: string[][];
