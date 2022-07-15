@@ -58,10 +58,9 @@ const DEFAULT_SETTINGS: QuickLatexSettings = {
 							"nu:\\nu;\nxi:\\xi;\nXi:\\Xi;\npi:\\pi;\nPi:\\Pi;\n"+
 							"rh:\\rho;\nsi:\\sigma;\nSi:\\Sigma;\nta:\\tau;\n"+
 							"up:\\upsilon;\nUp:\\Upsilon;\nph:\\phi;\nPh:\\Phi;\nch:\\chi;\n"+
-							"ps:\\psi;\nPs:\\Psi;\nom:\\omega;\nOm:\\Omega"+
-        					"int:\\int^{}_{}f(x)dx;sum:\\sum^{n-1}_{i=0};lim:\\lim_{x\\rightarrow\\infty};*:\\times;"
+							"ps:\\psi;\nPs:\\Psi;\nom:\\omega;\nOm:\\Omega;"+
+        					"\nint:\\int^{}_{}f(x)dx;\nsum:\\sum^{n-1}_{i=0};\nlim:\\lim_{x\\rightarrow\\infty};\n*:\\times;"
 }
-
 export default class QuickLatexPlugin extends Plugin {
 	settings: QuickLatexSettings;
 	shorthand_array: string[][];
